@@ -3,6 +3,7 @@ import { EDITOR_CSS, INSPECTOR_CSS } from '@/video-editor-css.js';
 import { MEDIA_INSPECTOR_JS } from '@/components/editor/media-inspector.js';
 import { KEYBOARD_SHORTCUTS_JS } from '@/components/editor/keyboard-shortcuts.js';
 import { EFFECT_EXPANSION_JS } from '@/components/editor/effect-expansion.js';
+import { EFFECT_TRENDS_JS } from '@/components/editor/effect-trends.js';
 import { TIMELINE_EFFECTS_JS } from '@/components/editor/timeline-effects.js';
 import { EDITOR_TIMELINE_JS } from '@/components/editor/editor-timeline.js';
 import { PROJECT_PERSISTENCE_JS } from '@/components/editor/project-persistence.js';
@@ -439,7 +440,7 @@ ${FONT_OPTIONS}
 </div>
 <div class="editor-toast" id="editorToast"></div>
 <script>
-${EFFECTS_JS}${OVERLAYS_JS}${EFFECT_EXPANSION_JS}
+${EFFECTS_JS}${OVERLAYS_JS}${EFFECT_EXPANSION_JS}${EFFECT_TRENDS_JS}
 </script>
 <script>(function(){
   // ---------------- i18n ----------------
